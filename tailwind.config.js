@@ -12,6 +12,8 @@ module.exports = {
         fontSize: {
             "5.5xl": ["3.5rem", "1.2"],
             "4.5xl": ["2.5rem", "1.2"],
+            "3.5xl": ["1.25rem", "1.5"],
+            "2.5xl": ["2rem", "1.5"],
         },
         boxShadow: {
             "ig-box-shadow": "0 4px 20px -5px rgb(66 133 244 / 40%)",
