@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.imagine-blue-btn {
+    @apply inline-block bg-imagine-blue duration-300 rounded-full shadow-ig-box-shadow text-imagine-white py-3 px-8 hover:shadow-ig-h-box-shadow hover:-translate-y-0.5;
+}
+
+.menu_btn {
+    @apply inline-block px-5 py-4 duration-300 text-imagine-black hover:text-imagine-blue;
+}

@@ -1,9 +1,14 @@
+import Features from "./components/Features/Features";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+
 function App() {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
-            <div className="bg-gray-400">lkds</div>
-        </div>
+        <>
+            <Header />
+            <Hero />
+            <Features />
+        </>
     );
 }
 
