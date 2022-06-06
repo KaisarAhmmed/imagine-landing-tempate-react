@@ -1,3 +1,4 @@
+import About from "./components/About/About";
 import Features from "./components/Features/Features";
 import FeaturesBig from "./components/FeaturesBig/FeaturesBig";
 import Footer from "./components/Footer/Footer";
@@ -11,7 +12,7 @@ function App() {
             <Hero />
             <Features />
             <FeaturesBig image={"right"} />
-
+            <About />
             <Footer />
         </>
     );
