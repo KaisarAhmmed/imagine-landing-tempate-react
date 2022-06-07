@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 const Team = () => {
     return (
         <section className="relative py-20">
-            <div className="container flex justify-center">
+            <div className="container flex justify-center" data-aos="fade-up">
                 <div className="w-7/12 text-center mb-24">
                     <h1 className="text-4.5xl text-imagine-black font-bold mb-4">
                         Our Team
@@ -19,7 +19,12 @@ const Team = () => {
             </div>
             <div className="container grid grid-cols-3 gap-y-10 gap-x-8">
                 {TeamData.map((team) => (
-                    <div className="group" key={team.id}>
+                    <div
+                        className="group"
+                        key={team.id}
+                        data-aos="fade-up"
+                        data-aos-delay={team.delay}
+                    >
                         <div className="mb-7 relative overflow-hidden">
                             <img
                                 src={team.image}

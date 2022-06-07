@@ -5,7 +5,7 @@ import { IoIosAnalytics } from "react-icons/io";
 const Features = () => {
     return (
         <section className="relative py-20">
-            <div className="container flex justify-center">
+            <div data-aos="fade-up" className="container flex justify-center">
                 <div className="w-7/12 text-center mb-24">
                     <h1 className="text-4.5xl text-imagine-black font-bold mb-4">
                         Imagine Features
@@ -17,7 +17,11 @@ const Features = () => {
                 </div>
             </div>
             <div className="container grid grid-cols-3 gap-x-7 gap-y-20">
-                <div className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue">
+                <div
+                    className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue"
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                >
                     <div className="w-20 h-20 mx-auto bg-imagine-blue text-imagine-white rounded-full mb-4 absolute -top-10 left-2/4 -translate-x-1/2 duration-300 shadow-ig-box-shadow group-hover:bg-imagine-white group-hover:text-imagine-blue">
                         <IoIosAlarm className="mx-auto h-20 text-2.5xl" />
                     </div>
@@ -35,7 +39,11 @@ const Features = () => {
                         Learn More
                     </a>
                 </div>
-                <div className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue">
+                <div
+                    className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue"
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                >
                     <div className="w-20 h-20 mx-auto bg-imagine-blue text-imagine-white rounded-full mb-4 absolute -top-10 left-2/4 -translate-x-1/2 duration-300 shadow-ig-box-shadow group-hover:bg-imagine-white group-hover:text-imagine-blue">
                         <IoIosAnalytics className="mx-auto h-20 text-2.5xl" />
                     </div>
@@ -53,7 +61,11 @@ const Features = () => {
                         Learn More
                     </a>
                 </div>
-                <div className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue">
+                <div
+                    className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue"
+                    data-aos="fade-up"
+                    data-aos-delay="250"
+                >
                     <div className="w-20 h-20 mx-auto bg-imagine-blue text-imagine-white rounded-full mb-4 absolute -top-10 left-2/4 -translate-x-1/2 duration-300 shadow-ig-box-shadow group-hover:bg-imagine-white group-hover:text-imagine-blue ">
                         <IoIosAnalytics className="mx-auto h-20 text-2.5xl" />
                     </div>
@@ -71,7 +83,11 @@ const Features = () => {
                         Learn More
                     </a>
                 </div>
-                <div className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue">
+                <div
+                    className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue"
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                >
                     <div className="w-20 h-20 mx-auto bg-imagine-blue text-imagine-white rounded-full mb-4 absolute -top-10 left-2/4 -translate-x-1/2 duration-300 shadow-ig-box-shadow group-hover:bg-imagine-white group-hover:text-imagine-blue">
                         <IoIosAnalytics className="mx-auto h-20 text-2.5xl" />
                     </div>
@@ -89,7 +105,11 @@ const Features = () => {
                         Learn More
                     </a>
                 </div>
-                <div className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue">
+                <div
+                    className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue"
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                >
                     <div className="w-20 h-20 mx-auto bg-imagine-blue text-imagine-white rounded-full mb-4 absolute -top-10 left-2/4 -translate-x-1/2 duration-300 shadow-ig-box-shadow group-hover:bg-imagine-white group-hover:text-imagine-blue">
                         <IoIosAnalytics className="mx-auto h-20 text-2.5xl" />
                     </div>
@@ -107,7 +127,11 @@ const Features = () => {
                         Learn More
                     </a>
                 </div>
-                <div className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue">
+                <div
+                    className="group bg-imagine-gray p-6 pt-14 duration-300 text-center relative rounded-md hover:-translate-y-1.5 hover:bg-imagine-blue"
+                    data-aos="fade-up"
+                    data-aos-delay="250"
+                >
                     <div className="w-20 h-20 mx-auto bg-imagine-blue text-imagine-white rounded-full mb-4 absolute -top-10 left-2/4 -translate-x-1/2 duration-300 shadow-ig-box-shadow group-hover:bg-imagine-white group-hover:text-imagine-blue">
                         <IoIosAnalytics className="mx-auto h-20 text-2.5xl" />
                     </div>

@@ -11,6 +11,7 @@ const data = [
             tw: "#",
             in: "#",
         },
+        delay: "50",
     },
     {
         id: 2,
@@ -24,6 +25,7 @@ const data = [
             tw: "#",
             in: "#",
         },
+        delay: "150",
     },
     {
         id: 3,
@@ -37,6 +39,7 @@ const data = [
             tw: "#",
             in: "#",
         },
+        delay: "250",
     },
     {
         id: 4,
@@ -50,6 +53,7 @@ const data = [
             tw: "#",
             in: "#",
         },
+        delay: "50",
     },
     {
         id: 5,
@@ -63,6 +67,7 @@ const data = [
             tw: "#",
             in: "#",
         },
+        delay: "150",
     },
     {
         id: 6,
@@ -76,6 +81,7 @@ const data = [
             tw: "#",
             in: "#",
         },
+        delay: "250",
     },
 ];
 

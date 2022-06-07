@@ -7,7 +7,7 @@ const FeaturesBig = ({ image }) => {
     return (
         <div className="feature-big">
             <div className="container flex flex-row items-center py-20">
-                <div className="w-7/12">
+                <div className="w-7/12" data-aos="fade-right">
                     <img src={BigFeatureImage} alt="communication" />
                 </div>
                 <div className="w-5/12 ml-14">
@@ -19,7 +19,11 @@ const FeaturesBig = ({ image }) => {
                         Voluptatem neque nisi architecto autem molestias
                         corrupti officia veniam.
                     </p>
-                    <div className="border-y border-r border-l-[10px] rounded p-5 border-[#4384F4]">
+                    <div
+                        className="border-y border-r border-l-[10px] rounded p-5 border-[#4384F4]"
+                        data-aos="fade-left"
+                        data-aos-delay="100"
+                    >
                         <div className="flex mb-8">
                             <img
                                 className="w-12 rounded-full mr-5"
