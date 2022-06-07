@@ -1,5 +1,6 @@
 import About from "./components/About/About";
 import Blog from "./components/Blog/Blog";
+import Contact from "./components/Contact/Contact";
 import Features from "./components/Features/Features";
 import FeaturesBig from "./components/FeaturesBig/FeaturesBig";
 import Footer from "./components/Footer/Footer";
@@ -19,6 +20,7 @@ function App() {
             <Team />
             <Testimonial />
             <Blog />
+            <Contact />
             <Footer />
         </>
     );

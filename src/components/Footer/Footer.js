@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className="py-12">
+        <div className="pt-16 pb-12">
             <div className="container flex flex-col">
                 <div className="w-full flex justify-center mb-12">
                     <a
