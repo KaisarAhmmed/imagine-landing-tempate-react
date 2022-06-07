@@ -18,6 +18,7 @@ module.exports = {
         boxShadow: {
             "ig-box-shadow": "0 4px 20px -5px rgb(66 133 244 / 40%)",
             "ig-h-box-shadow": "0 5px 30px -5px rgb(66 133 244 / 70%)",
+            "ig-t-box-shadow": "0 5px 15px -2px rgb(0 0 0 / 10%)",
         },
         fontFamily: {
             Nunito: ["Nunito, sans-serif"],
